@@ -6,7 +6,7 @@
         {
         }
         public ResultCardNumberValidation(bool isValid, string message)
-        : this()
+            : this()
         {
             this.IsValid = isValid;
             this.Message = message;

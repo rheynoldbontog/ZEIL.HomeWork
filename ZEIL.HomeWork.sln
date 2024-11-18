@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZEIL.HomeWork.Service", "ZE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZEIL.HomeWork.Service.Test", "ZEIL.HomeWork.Service.Test\ZEIL.HomeWork.Service.Test.csproj", "{2BB7F465-6760-4A38-8488-3ED17EA483CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZEIL.HomeWork.DTO", "ZEIL.HomeWork.Model\ZEIL.HomeWork.DTO.csproj", "{2F64C4FB-8501-4270-9DE3-8B54B3E9FB21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZEIL.HomeWork.WebAPI.Test", "ZEIL.HomeWork.WebAPI.Test\ZEIL.HomeWork.WebAPI.Test.csproj", "{745F16A5-B710-4EFD-B887-4EA24F22E1E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZEIL.HomeWork.WebAPI.Test", "ZEIL.HomeWork.WebAPI.Test\ZEIL.HomeWork.WebAPI.Test.csproj", "{745F16A5-B710-4EFD-B887-4EA24F22E1E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZEIL.HomeWork.DTO", "ZEIL.HomeWork.DTO\ZEIL.HomeWork.DTO.csproj", "{CDEDB774-EC26-4381-8EA2-8A88153B8C41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{2BB7F465-6760-4A38-8488-3ED17EA483CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BB7F465-6760-4A38-8488-3ED17EA483CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BB7F465-6760-4A38-8488-3ED17EA483CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F64C4FB-8501-4270-9DE3-8B54B3E9FB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F64C4FB-8501-4270-9DE3-8B54B3E9FB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F64C4FB-8501-4270-9DE3-8B54B3E9FB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F64C4FB-8501-4270-9DE3-8B54B3E9FB21}.Release|Any CPU.Build.0 = Release|Any CPU
 		{745F16A5-B710-4EFD-B887-4EA24F22E1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{745F16A5-B710-4EFD-B887-4EA24F22E1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{745F16A5-B710-4EFD-B887-4EA24F22E1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{745F16A5-B710-4EFD-B887-4EA24F22E1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDEDB774-EC26-4381-8EA2-8A88153B8C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEDB774-EC26-4381-8EA2-8A88153B8C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEDB774-EC26-4381-8EA2-8A88153B8C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEDB774-EC26-4381-8EA2-8A88153B8C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
