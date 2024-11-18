@@ -1,0 +1,17 @@
+# ZEIL.HomeWork
+A simple Web API projects
+
+#Projects
+
+List of projects that include in the solution.
+
+ZEIL.HomeWork.Model
+
+ZEIL.HomeWork.Service
+
+ZEIL.HomeWork.Service.Test
+
+ZEIL.HomeWork.WebAPI
+
+ZEIL.HomeWork.WebAPI.Test
+ 

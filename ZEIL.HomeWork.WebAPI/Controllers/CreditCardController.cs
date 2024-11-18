@@ -7,24 +7,24 @@ namespace ZEIL.HomeWork.WebAPI.Controllers
     [ApiController]
     public class CreditCardController : ControllerBase
     {
-        private readonly ILuhnAlgorithmService _luhnAlgorithmService;
-        public CreditCardController(ILuhnAlgorithmService luhnAlgorithmService)
+        private readonly ICreditCardService _creditCardService;
+        public CreditCardController(ICreditCardService creditCardService)
         {
-            _luhnAlgorithmService = luhnAlgorithmService;
+            _creditCardService = creditCardService;
         }
 
         [Route("isvalid/{cardNo}")]
         [HttpPost]
-        public async Task<ActionResult> ValidateCard([FromRoute] string cardNo)
+        public ActionResult ValidateCard([FromRoute] string cardNo)
         {
             if (string.IsNullOrEmpty(cardNo))
                 return BadRequest("Card number must not be empty.");
 
             try
             {
-                bool validate = _luhnAlgorithmService.IsValid(cardNo);
+                var result = _creditCardService.ValidateCardNumber(cardNo);
 
-                return Ok(validate);
+                return Ok(result);
             }
             catch
             {

@@ -1,7 +1,7 @@
 ﻿
 namespace ZEIL.HomeWork.Service.Interface
 {
-    public interface ILuhnAlgorithmService
+    public interface ILuhnAlgorithm
     {
         bool IsValid(string number);
     }

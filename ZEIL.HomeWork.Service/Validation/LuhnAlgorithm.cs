@@ -2,7 +2,7 @@
 
 namespace ZEIL.HomeWork.Service.Validation
 {
-    public class LuhnAlgorithmService : ILuhnAlgorithmService
+    public class LuhnAlgorithm : ILuhnAlgorithm
     {
         public bool IsValid(string number)
         {

@@ -1,8 +1,9 @@
 ﻿using ZEIL.HomeWork.Service.Validation;
 
-namespace ZEIL.HomeWork.Service.Test.Validate
+
+namespace ZEIL.HomeWork.Service.Test.Base
 {
-    public class ValidateServiceTestBase : UnitTestBase<LuhnAlgorithmService>
+    public abstract class LuhnAlgorithmTestBase : UnitTestBase<LuhnAlgorithm>
     {
         public override void Act()
         {
@@ -16,12 +17,12 @@ namespace ZEIL.HomeWork.Service.Test.Validate
 
         public override void ResetMockedServices()
         {
-            
+
         }
 
-        protected override LuhnAlgorithmService CreateService()
+        protected override LuhnAlgorithm CreateService()
         {
-            return new LuhnAlgorithmService();
+            return new LuhnAlgorithm();
         }
     }
 }
